@@ -46,4 +46,6 @@ main
         end if
         display "counter:", counter
     end for
+
+    exit program 0                                          # ???????????????
 end main
