@@ -2,9 +2,10 @@
 #                                                                       #
 #       object    : pg000951                                            #
 #       function  : Hello GFAST                                         #
-#       overview  : ????? GFAST ??????? Hello world           #
-#                 : ????????????????????               #
-#                 : ????????                                     #
+#       overview  : A Hello world program that conforms to GFAST coding #
+#                 : convention. It takes one argument. Unless specified,#
+#                 : it will NOT output anything. I believe now you can  #
+#                 : understand the code on you own.                     #
 #       Arguments : p_msg       char(100)                               #
 #       return    : status              integer  0:normal               #
 #                                               -1:abnormal             #
