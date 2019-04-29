@@ -5,12 +5,12 @@ main
                 a, b int
             end record
 
-    call display_divider()                                  # ???????????????
+    call display_divider()
 
-    call sum_int(114, 514) returning sumed_number           # ?????????????????????
+    call sum_int(114, 514) returning sumed_number
     display sumed_number
 
-    let sumed_number = sum_int(1919, 810)                   # ??????????????????
+    let sumed_number = sum_int(1919, 810)
     display sumed_number
 
     call display_divider()
@@ -19,20 +19,20 @@ main
     let numbers.b = 2
 
     display numbers.*
-    call swap(numbers.*) returning numbers.*                # * ????????????????????????????????????
+    call swap(numbers.*) returning numbers.*
     display numbers.*
 end main
 
-function display_divider()                                  # ????
+function display_divider()
     display "=================================================="
 end function
 
-function sum_int(a, b)                                      # ??????
-    define a, b int                                         # ??????? define ???
-    return a + b                                            # return ????
+function sum_int(a, b)
+    define a, b int
+    return a + b
 end function
 
 function swap(a, b)
     define a, b int
-    return b, a                                             # ??????
+    return b, a
 end function
