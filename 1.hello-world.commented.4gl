@@ -1,6 +1,6 @@
 # Open this file with UTF-8 encoding
 # 可能这里服务器的 4GL 编码是 Shift-JIS 的，所以 UTF-8 的编译不成功
-# 这个 commented 文件用于看注释，另一个文件用于执行试验
+# 这个 commented 文件用于看注释，另一个文件可以直接编译执行，试验效果
 #
 # 注释以 # 开头
 # 如果你看到代码全是黑字的话，先看看环境配置配好编辑器
