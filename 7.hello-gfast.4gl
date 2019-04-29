@@ -3,9 +3,11 @@
 #       object    : pg000951                                            #
 #       function  : Hello GFAST                                         #
 #       overview  : A Hello world program that conforms to GFAST coding #
-#                 : convention. It takes one argument. Unless specified,#
-#                 : it will NOT output anything. I believe now you can  #
-#                 : understand the code on you own.                     #
+#                 : conventions.                                        #
+#                 : It takes one argument. Unless specified, it will NOT#
+#                 : output anything.                                    #
+#                 : I believe now you can understand the code on your   #
+#                 : own.                                                #
 #       Arguments : p_msg       char(100)                               #
 #       return    : status              integer  0:normal               #
 #                                               -1:abnormal             #
